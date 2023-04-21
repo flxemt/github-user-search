@@ -20,13 +20,13 @@ export default function Search(props) {
       <img src="/icon-search.svg" alt="Search" className="self-center" />
       <input
         type="text"
-        className="bg-transparent outline-none text-h4 flex-1 placeholder:text-blue dark:placeholder:text-white md:text-[1.125rem]"
+        className="bg-transparent outline-none text-h4 placeholder:text-blue dark:placeholder:text-white w-full md:flex-1 md:text-[1.125rem]"
         placeholder="Search GitHub username…"
         value={search}
         onChange={handleChange}
       />
       {props.error && (
-        <span className="self-center text-red">
+        <span className="self-center text-red shrink-0 text-[0.6875rem] md:text-body">
           {props.error.message === '404' ? 'No results' : `Error ${props.error.message}`}
         </span>
       )}
