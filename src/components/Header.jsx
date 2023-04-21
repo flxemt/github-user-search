@@ -19,7 +19,11 @@ export default function Header() {
         <span className="mr-4 text-h4 leading-h4 tracking-[2.5px] uppercase text-blue dark:text-white">
           {isLightTheme ? 'Dark' : 'Light'}
         </span>
-        {isLightTheme ? <img src="/icon-moon.svg" alt="Dark" /> : <img src="/icon-sun.svg" alt="Light" />}
+        {isLightTheme ? (
+          <img src="/icon-moon.svg" alt="Dark" aria-hidden="true" />
+        ) : (
+          <img src="/icon-sun.svg" alt="Light" aria-hidden="true" />
+        )}
       </button>
     </div>
   )
