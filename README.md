@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/vNfamVV.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/github-user-search-app-using-react-and-tailwind-b4it65A-b\_](https://www.frontendmentor.io/solutions/github-user-search-app-using-react-and-tailwind-b4it65A-b_)
+- Live Site URL: [https://github-react-search.vercel.app/](https://github-react-search.vercel.app/)
 
 ## My process
 
